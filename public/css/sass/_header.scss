@@ -7,37 +7,44 @@ header {
     &.active-session {
         text-align: left;
     }
-    
+
     .container {
         max-width: 1000px;
         padding: 30px;
         margin: 0 auto;
-        
+
         .app-nav {
             display: block;
             float: right;
             margin: 0;
             padding: 0;
         }
-    
+
         .app-nav li {
             display: inline-block;
             margin: 0;
             padding: 0;
             list-style: none;
-        }
-    
-        .app-nav li a {
-            display: inline-block;
-            padding: 3px 10px;
             border-left: 1px solid #ccc;
-            color: #fff;
         }
-    
-        .app-nav li:first-of-type a {
+
+        .app-nav li:first-of-type {
             border-left: none;
         }
-        
+
+        .app-nav li a {
+            display: inline-block;
+            font-weight: bold;
+            padding: 3px 10px;
+            margin: 0 5px 0 5px;
+            color: #fff;
+            transition: .3s text-shadow;
+        }
+
+        .app-nav li a:hover {
+            text-shadow: -2px -2px 4px #5E0100;
+        }
+
     }
 }
 
