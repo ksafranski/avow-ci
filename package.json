@@ -1,10 +1,10 @@
 {
-  "name": "AvowJS",
-  "version": "0.0.1",
+  "name": "avow-ci",
+  "version": "0.1.0",
   "description": "Simple, private CI service",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Fluidbyte/avowjs.git"
+    "url": "https://github.com/Fluidbyte/avow-ci.git"
   },
   "dependencies": {
     "express": "~3.4.8",
