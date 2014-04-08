@@ -148,6 +148,14 @@ following settings:
 Once these settings are in place the system will automatically process incoming
 webhook `POST`'s and execute a build.
 
+## Framework/Structure
+
+The system is built on top of [DozerJS](http://www.dozerjs.com) which is a foundational 
+framework for building full-stack NodeJS applications. If you would like to 
+conribute to Avow obviously please follow conventions in place. The 
+[DozerJS Documentation](https://github.com/DozerJS/dozerjs-docs) provides additional 
+details on expanding on the framework.
+
 ## License
 
 This software is released as-is, without warranty under the MIT-Style license.
