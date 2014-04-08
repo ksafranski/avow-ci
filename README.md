@@ -8,7 +8,7 @@ A simple yet powerful open-source CI system for individual developers, small tea
 and dev shops, specifically designed for JavaScript projects.
 
 Avow is built for customization - creating continuous integration (and deployment)
-that fits your specific need. It's easy to hack on and makes it simple to crete
+that fits your specific need. It's easy to hack on and makes it simple to create
 solutions that fit your needs.
 
 ## Requirements
